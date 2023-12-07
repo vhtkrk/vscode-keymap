@@ -2,7 +2,7 @@
   "name": "custom-keymap",
   "displayName": "Custom Keymap",
   "description": "Allow rebinding keys in text editor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.84.0"
   },
@@ -11,7 +11,8 @@
     "Other"
   ],
   "activationEvents": [
-    "onStartupFinished"
+    "onStartupFinished",
+    "onCommand:type"
   ],
   "main": "./out/extension.js",
   "contributes": {
@@ -39,6 +40,7 @@
     "url": "https://github.com/vhtkrk/vscode-keymap.git"
   },
   "license": "MIT",
+  "publisher": "Joeli Hokkanen",
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",

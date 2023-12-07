@@ -29,7 +29,7 @@ This extension contributes the following settings:
 
 ## Known Issues
 
-- Slight delay and flash of the original character before it's replaced with the correct one.
+- None yet
 
 ## TODO
 
